@@ -1,0 +1,6 @@
+Product (ProductID, ProductName, SupplierID, Category, UnitPrice, QuantityInStock)
+Supplier (SupplierID, SupplierName, ContactName, ContactEmail)
+Inventory (InventoryID, ProductID, QuantityAvailable, Location)
+Order (OrderID, OrderDate, UserID)
+OrderDetails (OrderID, ProductID, QuantityOrdered)
+User (UserID, UserName, Password, Role)
